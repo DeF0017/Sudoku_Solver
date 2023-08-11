@@ -13,7 +13,7 @@ Two options to select for input:
 3. Once the matrix is fully filled, remove K elements randomly to complete game
 
 # How to Solve Sudoku.
-Sudoku Solver using Backtracking Algorithm
+Sudoku Solver using Backtracking Algorithm:
 1. Create a function that checks after assigning the current index the grid becomes unsafe or not. Keep Hashmap for a row, column and boxes. If any number has a frequency greater than 1 in the hashMap return false else return true; hashMap can be avoided by using loops.
 2. Create a recursive function that takes a grid.
 3. Check for any unassigned location. 
